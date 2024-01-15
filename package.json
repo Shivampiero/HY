@@ -1,16 +1,17 @@
 {
-  "name": "passmanager",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your project description",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html"
+    "build": "your-build-command"  // Add your build command if necessary
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.0.0",
-    "@sendgrid/mail": "^7.4.0"
+    "aws-sdk": "^2.1073.0",  // Add this line
+    // ... other dependencies
   }
 }
