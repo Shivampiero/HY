@@ -166,31 +166,32 @@
     </nav>
     <div class="container">
         <h1>Contact Us</h1>
-        <form id="contactForm" netlify netlify-honeypot="bot-field" action="/.netlify/functions/submit" method="post">
+        <form id="contactForm" action="https://formspree.io/f/mgegvlvw" method="post">
             <!-- The following hidden field helps with spam prevention -->
             <p style="display: none;">
                 <label>Don’t fill this out if you're human: <input name="bot-field"></label>
             </p>
-
+    
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
             <br><br>
-
+    
             <label for="email">Your Email:</label>
             <input type="email" id="email" name="email" required>
             <br><br>
-
+    
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
             <br><br>
-
+    
             <button class="btn" type="submit">Submit</button>
         </form>
     </div>
+    
 
     <script src="script2.js"></script>
 </body>
 
 </html>
 
-</html>
+
