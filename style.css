@@ -75,12 +75,13 @@ h1, h2, h3 {
     cursor: pointer;
 }
 
-img{
+img {
     cursor: pointer;
     position: relative;
     bottom: 7px;
     width: 15px;
     height: 13px;
+    
 }
 
 #alert{
