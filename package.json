@@ -1,17 +1,16 @@
 {
-  "name": "your-project-name",
+  "name": "passmanager",
   "version": "1.0.0",
-  "description": "Your project description",
-  "main": "index.js",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "your-build-command"  // Add your build command if necessary
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1073.0",  // Add this line
-    // ... other dependencies
+    "parcel": "^2.0.0",
+    "aws-sdk": "^2.1073.0",
   }
 }
