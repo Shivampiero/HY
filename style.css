@@ -81,7 +81,7 @@ img{
     bottom: 7px;
     width: 15px;
     height: 13px;
-    background: url('/path-to-your-image-folder/copy.svg');
+    background: url('copy.svg');
 }
 
 #alert{
