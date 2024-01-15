@@ -81,7 +81,11 @@ img {
     bottom: 7px;
     width: 15px;
     height: 13px;
+<<<<<<< HEAD
     
+=======
+    background: url('copy.svg');
+>>>>>>> 1a275e62b56dbd0a76169fc4329ad150a9ac907a
 }
 
 #alert{
