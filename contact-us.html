@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - VaultX</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background: linear-gradient(45deg, #555555 50%, #141414 50%);
+            position: relative;
+        }
+
+        nav {
+            background-color: black;
+            color: #f4f4f4;
+            padding: 12px 3px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            margin: 0 23px;
+            font-weight: 800;
+            font-size: 25px;
+            cursor: pointer;
+            color: #f4f4f4;
+        }
+
+        ul {
+            display: flex;
+            margin: 0 23px;
+            align-items: center;
+        }
+
+        ul > li {
+            list-style: none;
+            margin: 0 13px;
+            cursor: pointer;
+            color: #f4f4f4;
+            transition: color 0.3s ease;
+        }
+
+        ul > li:hover {
+            color: rgb(0, 173, 236);
+        }
+
+        table, td, tr {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px 13px;
+        }
+
+        .container {
+            max-width: 80vw;
+            margin: 23px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            margin: 23px 0;
+            color: #333;
+        }
+
+        .btn {
+            padding: 8px 17px;
+            background: black;
+            color: #f4f4f4;
+            font-weight: 900;
+            border: 2px solid gray;
+            border-radius: 8px;
+            margin: 25px 0;
+            cursor: pointer;
+        }
+
+        img {
+            cursor: pointer;
+            position: relative;
+            bottom: 7px;
+            width: 15px;
+            height: 13px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #777;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        button.btn {
+            background-color: black;
+            color: #f4f4f4;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        button.btn:hover {
+            background-color: #333;
+        }
+
+        footer {
+            color: #020202 !important;
+            text-align: left;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            color: #020202;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">VaultX</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm" netlify netlify-honeypot="bot-field" action="/.netlify/functions/submit" method="post">
+            <!-- The following hidden field helps with spam prevention -->
+            <p style="display: none;">
+                <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </p>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
+
+</html>

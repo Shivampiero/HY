@@ -1,0 +1,156 @@
+html, body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(45deg, #555555 50%, #141414 50%);
+    position: relative;
+}
+
+body {
+    min-height: 100vh; /* Ensure at least 100% of the viewport height */
+    box-sizing: border-box;
+    overflow-y: auto; /* Allow vertical scrolling when needed */
+}
+
+main {
+    padding: 20px; /* Adjust padding based on your design */
+}
+* {
+   
+    box-sizing: border-box;
+   
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f4f4f4;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #f4f4f4; /* Set the desired color */
+}
+
+nav ul li a:hover {
+    color: rgb(0, 173, 236); /* Set the desired hover color */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Password table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 06px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+/* Add Password form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: px;
+    color: #777;
+}
+
+input {
+    width: 100%;
+    padding: px;
+    margin-bottom: px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.btn:hover {
+    background-color: #555;
+}
+
+#alert {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+footer {
+    color: #020202 !important; /* Text color */
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color:#020202;
+}
