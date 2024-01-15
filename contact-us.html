@@ -166,7 +166,8 @@
     </nav>
     <div class="container">
         <h1>Contact Us</h1>
-        <form id="contactForm" action="https://formspree.io/f/mgegvlvw" method="post">
+        <form id="contactForm" netlify netlify-honeypot="bot-field" action="https://formspree.io/your-email@example.com" method="post">
+
             <!-- The following hidden field helps with spam prevention -->
             <p style="display: none;">
                 <label>Don’t fill this out if you're human: <input name="bot-field"></label>
